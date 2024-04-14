@@ -1,5 +1,3 @@
-import re
-
 def response(hey_bob):
     """
     This function processes the input 'hey_bob' and returns a response based on the input.
