@@ -1,1 +1,79 @@
-.idea
+## Build artifacts
+bin/
+obj/
+out/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio
+.vs/
+.vscode/
+
+## Rider
+.idea/
+
+## DotCover
+*.dotCover
+
+## ASP.NET
+wwwroot/js/*.map
+appsettings.Development.json
+
+## Logs
+*.log
+
+## Secrets
+secrets.json
+
+## Publish
+*.publish.xml
+
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Global JSON, but keep global.json itself
+!global.json
+
+# JetBrains Rider
+.idea/
+
+# Node modules (if you’re using npm or yarn in your Blazor project)
+node_modules/
+
+# npm/yarn logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Transpiled files
+*.dll
+*.exe
+*.js.map
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Azure Pipelines
+.env
+.env.local
+.env.*.local
+
+# EF Core migrations snapshot
+Migrations/*Snapshot.cs
